@@ -1,6 +1,7 @@
 pragma solidity ^0.4.21;
 
 // auction contract
+// highest bidder cannot withdraw
 contract Auction{
   address public highestBidder;
   uint public highestBid;
